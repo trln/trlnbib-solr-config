@@ -1071,12 +1071,16 @@
   translation_of_author_t^1
 </str>
 <str name="subject_qf">
-  subject_headings_t
-  genre_headings_t
-</str>
-<str name="subject_pf">
+  subject_headings_f^10
+  genre_headings_f^10
   subject_headings_t^1
   genre_headings_t^1
+</str>
+<str name="subject_pf">
+  subject_headings_t^50
+  subject_headings_f^40
+  genre_headings_t^50
+  genre_headings_f^40
 </str>
 <str name="isbn_issn_qf">
   alt_edition_isbn_isbn^1
