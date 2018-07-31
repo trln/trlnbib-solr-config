@@ -458,6 +458,8 @@
      </lst>
   </requestHandler>
 
+  <requestHandler name="/admin/luke" class="solr.admin.LukeRequestHandler"/>
+
   <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell">
     <lst name="defaults">
       <str name="df">text</str>
