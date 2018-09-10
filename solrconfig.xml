@@ -436,17 +436,28 @@
        provided with Solr is "SearchHandler" It delegates to a sequent
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
-    -->
+       -->
+
   <requestHandler name="/select" class="solr.SearchHandler">
     <lst name="defaults">
         <str name="defType">edismax</str>
-        <str name="echoParams">explicit</str>
         <int name="rows">10</int>
-        <str name="q.alt">*:*</str>
         <str name="facet.mincount">1</str>
+        <str name="echoParams">explicit</str>
+        <str name="mm">6&lt;90%</str>
+        <str name="q.alt">*:*</str>
         &select_edismax;
-    </lst> 
-  </requestHandler>
+    </lst>
+</requestHandler>
+
+<requestHandler name="/document" class="solr.SearchHandler">
+  <lst name="defaults">
+    <str name="q">{!term f= id v = $id}</str>
+    <int name="rows">1</int>
+    <str name="fl">*</str>
+    <str name="echoParams">explicit</str>
+  </lst>
+</requestHandler>
 
   <!-- A request handler that returns indented JSON by default -->
   <requestHandler name="/query" class="solr.SearchHandler">
