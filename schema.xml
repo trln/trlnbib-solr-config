@@ -166,15 +166,21 @@
      in a compatible way. Any analysis applied to the <uniqueKey> should _not_ produce multiple
      tokens
    -->
-   <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+
+  <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
 
 
  <!-- Field to use to determine and enforce document uniqueness.
       Unless this field is marked with required="false", it will be a required field
    -->
- <uniqueKey>id</uniqueKey>
+  <uniqueKey>id</uniqueKey>
 
- <!-- Inser the dynamic fields -->
+  <!-- Define fields used to build suggestion indexes -->
+  <field name="author_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
+  <field name="title_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
+  <field name="subject_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
+
+ <!-- Insert the dynamic fields -->
 
  &dynamic_fields;
  &language_parsers;

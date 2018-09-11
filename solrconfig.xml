@@ -445,6 +445,7 @@
         <str name="facet.mincount">1</str>
         <str name="echoParams">explicit</str>
         <str name="mm">6&lt;90%</str>
+        <str name="tie">1</str>
         <str name="q.alt">*:*</str>
         &select_edismax;
     </lst>
@@ -559,6 +560,82 @@
        <searchComponent name="debug"     class="solr.DebugComponent" />
        
      -->
+
+  <searchComponent name="suggest" class="solr.SuggestComponent">
+    <lst name="suggester">
+      <str name="name">authorSuggester</str>
+      <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">text_suggest</str>
+      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="indexPath">suggest_author_store</str>
+      <str name="field">author_suggest</str>
+      <str name="highlight">false</str>
+    </lst>
+    <lst name="suggester">
+      <str name="name">titleSuggester</str>
+      <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">text_suggest</str>
+      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="indexPath">suggest_title_store</str>
+      <str name="field">title_suggest</str>
+      <str name="highlight">false</str>
+    </lst>
+    <lst name="suggester">
+      <str name="name">subjectSuggester</str>
+      <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">text_suggest</str>
+      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="indexPath">suggest_subject_store</str>
+      <str name="field">subject_suggest</str>
+      <str name="highlight">false</str>
+    </lst>
+  </searchComponent>
+
+  <requestHandler name="/suggest" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.count">10</str>
+      <str name="suggest.dictionary">authorSuggester</str>
+      <str name="suggest.dictionary">titleSuggester</str>
+      <str name="suggest.dictionary">subjectSuggester</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
+    </arr>
+  </requestHandler>
+
+  <requestHandler name="/suggest_author" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.count">10</str>
+      <str name="suggest.dictionary">authorSuggester</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
+    </arr>
+  </requestHandler>
+
+  <requestHandler name="/suggest_title" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.count">10</str>
+      <str name="suggest.dictionary">titleSuggester</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
+    </arr>
+  </requestHandler>
+
+  <requestHandler name="/suggest_subject" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.count">10</str>
+      <str name="suggest.dictionary">subjectSuggester</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
+    </arr>
+  </requestHandler>
 
   <!-- Terms Component
 
