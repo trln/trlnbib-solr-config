@@ -175,6 +175,11 @@
    -->
   <uniqueKey>id</uniqueKey>
 
+  <!-- Field used for record rollup. Must be single-valued, indexed, and stored
+       in order to retrieve collapsed documents in the expand component in the
+       response from Solr. -->
+  <field name="rollup_id" type="string" indexed="true" stored="true" multiValued="false" />
+
   <!-- Define fields used to build suggestion indexes -->
   <field name="author_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
   <field name="title_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
