@@ -1122,3 +1122,15 @@
   translation_of_title_rus_v^1
   translation_of_title_t^1
 </str>
+<str name="publisher_pf">
+  publisher_ara_v^10
+  publisher_cjk_v^10
+  publisher_rus_v^10
+  publisher_t^10
+</str>
+<str name="publisher_qf">
+  publisher_ara_v
+  publisher_cjk_v
+  publisher_rus_v
+  publisher_t
+</str>
