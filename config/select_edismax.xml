@@ -343,12 +343,10 @@
   subject_headings_cjk_v^50
   subject_headings_rus_v^50
   subject_headings_t^50
-  subject_headings_f^50
   genre_headings_ara_v^50
   genre_headings_cjk_v^50
   genre_headings_rus_v^50
   genre_headings_t^50
-  genre_headings_f^50
   series_author_ara_v^35
   series_author_cjk_v^35
   series_author_rus_v^35
@@ -697,12 +695,10 @@
   subject_headings_cjk_v^50
   subject_headings_rus_v^50
   subject_headings_t^50
-  subject_headings_f^50
   genre_headings_ara_v^50
   genre_headings_cjk_v^50
   genre_headings_rus_v^50
   genre_headings_t^50
-  genre_headings_f^50
   series_author_ara_v^35
   series_author_cjk_v^35
   series_author_rus_v^35
@@ -963,16 +959,24 @@
   supplement_to_work_indexed_t^1
 </str>
 <str name="subject_pf">
-  subject_headings_t^50
-  subject_headings_f^40
+  genre_headings_ara_v^50
+  genre_headings_cjk_v^50
+  genre_headings_rus_v^50
   genre_headings_t^50
-  genre_headings_f^40
+  subject_headings_ara_v^50
+  subject_headings_cjk_v^50
+  subject_headings_rus_v^50
+  subject_headings_t^50
 </str>
 <str name="subject_qf">
-  subject_headings_f^10
-  genre_headings_f^10
-  subject_headings_t^1
-  genre_headings_t^1
+  genre_headings_ara_v
+  genre_headings_cjk_v
+  genre_headings_rus_v
+  genre_headings_t
+  subject_headings_ara_v
+  subject_headings_cjk_v
+  subject_headings_rus_v
+  subject_headings_t
 </str>
 <str name="title_pf">
   alt_edition_title_ara_v^1
