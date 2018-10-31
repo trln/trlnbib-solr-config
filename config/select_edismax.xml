@@ -349,37 +349,37 @@
   genre_headings_rus_v^50
   genre_headings_t^50
   genre_headings_f^50
-  series_author_ara_v^13
-  series_author_cjk_v^13
-  series_author_rus_v^13
-  series_author_t^13
-  series_issn_num^13
-  series_statement_ara_v^13
-  series_statement_cjk_v^13
-  series_statement_rus_v^13
-  series_statement_indexed_t^13
-  series_statement_issn_isbn^13
-  series_statement_other_ids_num^13
-  series_title_ara_v^13
-  series_title_cjk_v^13
-  series_title_rus_v^13
-  series_title_t^13
-  series_work_ara_v^13
-  series_work_cjk_v^13
-  series_work_rus_v^13
-  series_work_indexed_t^13
-  subseries_author_ara_v^13
-  subseries_author_cjk_v^13
-  subseries_author_rus_v^13
-  subseries_author_t^13
-  subseries_title_ara_v^13
-  subseries_title_cjk_v^13
-  subseries_title_rus_v^13
-  subseries_title_t^13
-  subseries_work_ara_v^13
-  subseries_work_cjk_v^13
-  subseries_work_rus_v^13
-  subseries_work_indexed_t^13
+  series_author_ara_v^35
+  series_author_cjk_v^35
+  series_author_rus_v^35
+  series_author_t^35
+  series_issn_num^35
+  series_statement_ara_v^35
+  series_statement_cjk_v^35
+  series_statement_rus_v^35
+  series_statement_indexed_t^35
+  series_statement_issn_isbn^35
+  series_statement_other_ids_num^35
+  series_title_ara_v^35
+  series_title_cjk_v^35
+  series_title_rus_v^35
+  series_title_t^35
+  series_work_ara_v^35
+  series_work_cjk_v^35
+  series_work_rus_v^35
+  series_work_indexed_t^35
+  subseries_author_ara_v^35
+  subseries_author_cjk_v^35
+  subseries_author_rus_v^35
+  subseries_author_t^35
+  subseries_title_ara_v^35
+  subseries_title_cjk_v^35
+  subseries_title_rus_v^35
+  subseries_title_t^35
+  subseries_work_ara_v^35
+  subseries_work_cjk_v^35
+  subseries_work_rus_v^35
+  subseries_work_indexed_t^35
   note_admin_history_ara_v^20
   note_admin_history_cjk_v^20
   note_admin_history_rus_v^20
@@ -392,6 +392,10 @@
   note_biographical_cjk_v^20
   note_biographical_rus_v^20
   note_biographical_t^20
+  note_cited_in_ara_v^20
+  note_cited_in_cjk_v^20
+  note_cited_in_rus_v^20
+  note_cited_in_t^20
   note_dissertation_ara_v^20
   note_dissertation_cjk_v^20
   note_dissertation_rus_v^20
@@ -699,37 +703,37 @@
   genre_headings_rus_v^50
   genre_headings_t^50
   genre_headings_f^50
-  series_author_ara_v^13
-  series_author_cjk_v^13
-  series_author_rus_v^13
-  series_author_t^13
-  series_issn_num^13
-  series_statement_ara_v^13
-  series_statement_cjk_v^13
-  series_statement_rus_v^13
-  series_statement_indexed_t^13
-  series_statement_issn_isbn^13
-  series_statement_other_ids_num^13
-  series_title_ara_v^13
-  series_title_cjk_v^13
-  series_title_rus_v^13
-  series_title_t^13
-  series_work_ara_v^13
-  series_work_cjk_v^13
-  series_work_rus_v^13
-  series_work_indexed_t^13
-  subseries_author_ara_v^13
-  subseries_author_cjk_v^13
-  subseries_author_rus_v^13
-  subseries_author_t^13
-  subseries_title_ara_v^13
-  subseries_title_cjk_v^13
-  subseries_title_rus_v^13
-  subseries_title_t^13
-  subseries_work_ara_v^13
-  subseries_work_cjk_v^13
-  subseries_work_rus_v^13
-  subseries_work_indexed_t^13
+  series_author_ara_v^35
+  series_author_cjk_v^35
+  series_author_rus_v^35
+  series_author_t^35
+  series_issn_num^35
+  series_statement_ara_v^35
+  series_statement_cjk_v^35
+  series_statement_rus_v^35
+  series_statement_indexed_t^35
+  series_statement_issn_isbn^35
+  series_statement_other_ids_num^35
+  series_title_ara_v^35
+  series_title_cjk_v^35
+  series_title_rus_v^35
+  series_title_t^35
+  series_work_ara_v^35
+  series_work_cjk_v^35
+  series_work_rus_v^35
+  series_work_indexed_t^35
+  subseries_author_ara_v^35
+  subseries_author_cjk_v^35
+  subseries_author_rus_v^35
+  subseries_author_t^35
+  subseries_title_ara_v^35
+  subseries_title_cjk_v^35
+  subseries_title_rus_v^35
+  subseries_title_t^35
+  subseries_work_ara_v^35
+  subseries_work_cjk_v^35
+  subseries_work_rus_v^35
+  subseries_work_indexed_t^35
   note_admin_history_ara_v^20
   note_admin_history_cjk_v^20
   note_admin_history_rus_v^20
@@ -742,6 +746,10 @@
   note_biographical_cjk_v^20
   note_biographical_rus_v^20
   note_biographical_t^20
+  note_cited_in_ara_v^20
+  note_cited_in_cjk_v^20
+  note_cited_in_rus_v^20
+  note_cited_in_t^20
   note_dissertation_ara_v^20
   note_dissertation_cjk_v^20
   note_dissertation_rus_v^20
