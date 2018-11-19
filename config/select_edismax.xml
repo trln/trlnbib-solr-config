@@ -973,10 +973,6 @@
   subject_headings_t^50
   subject_headings_remapped_t^50
 </str>
-
-
-
-
 <str name="subject_qf">
   genre_headings_ara_v
   genre_headings_cjk_v
@@ -988,10 +984,6 @@
   subject_headings_t
   subject_headings_remapped_t
 </str>
-
-
-
-
 <str name="title_pf">
   alt_edition_title_ara_v^1
   alt_edition_title_cjk_v^1
