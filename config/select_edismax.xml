@@ -263,6 +263,7 @@
   misc_id_indexed_str^50
   oclc_number_str^50
   upc_indexed_str^50
+  short_title_t^100
   title_main_ara_v^50
   title_main_cjk_v^50
   title_main_indexed_t^50
@@ -616,6 +617,7 @@
   misc_id_indexed_str^50
   oclc_number_str^50
   upc_indexed_str^50
+  short_title_t^100
   title_main_ara_v^50
   title_main_cjk_v^50
   title_main_indexed_t^50
@@ -971,6 +973,10 @@
   subject_headings_t^50
   subject_headings_remapped_t^50
 </str>
+
+
+
+
 <str name="subject_qf">
   genre_headings_ara_v
   genre_headings_cjk_v
@@ -982,6 +988,10 @@
   subject_headings_t
   subject_headings_remapped_t
 </str>
+
+
+
+
 <str name="title_pf">
   alt_edition_title_ara_v^1
   alt_edition_title_cjk_v^1
@@ -1019,6 +1029,7 @@
   series_title_cjk_v^25
   series_title_rus_v^25
   series_title_t^25
+  short_title_t^100
   subseries_title_ara_v^25
   subseries_title_cjk_v^25
   subseries_title_rus_v^25
@@ -1097,6 +1108,7 @@
   series_title_cjk_v^25
   series_title_rus_v^25
   series_title_t^25
+  short_title_t^100
   subseries_title_ara_v^25
   subseries_title_cjk_v^25
   subseries_title_rus_v^25
