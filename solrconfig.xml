@@ -447,6 +447,8 @@
         <str name="mm">6&lt;90%</str>
         <str name="tie">1</str>
         <str name="q.alt">*:*</str>
+        <str name="sow">true</str>
+        <str name="uf">-*</str>
         &select_edismax;
     </lst>
 </requestHandler>
@@ -570,6 +572,7 @@
       <str name="indexPath">suggest_author_store</str>
       <str name="field">author_suggest</str>
       <str name="highlight">false</str>
+      <str name="buildOnStartup">false</str>
     </lst>
     <lst name="suggester">
       <str name="name">titleSuggester</str>
@@ -579,6 +582,7 @@
       <str name="indexPath">suggest_title_store</str>
       <str name="field">title_suggest</str>
       <str name="highlight">false</str>
+      <str name="buildOnStartup">false</str>
     </lst>
     <lst name="suggester">
       <str name="name">subjectSuggester</str>
@@ -588,6 +592,7 @@
       <str name="indexPath">suggest_subject_store</str>
       <str name="field">subject_suggest</str>
       <str name="highlight">false</str>
+      <str name="buildOnStartup">false</str>
     </lst>
   </searchComponent>
 
