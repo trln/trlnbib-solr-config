@@ -1016,56 +1016,44 @@
   genre_headings_ara_v^25
   genre_headings_cjk_v^25
   genre_headings_rus_v^25
-  genre_headings_t^50
   genre_headings_tp^100
   subject_headings_ara_v^25
   subject_headings_cjk_v^25
-  subject_headings_remapped_t^50
   subject_headings_remapped_tp^100
   subject_headings_rus_v^25
-  subject_headings_t^50
   subject_headings_tp^100
 </str>
 <str name="subject_pf3">
   genre_headings_ara_v^15
   genre_headings_cjk_v^15
   genre_headings_rus_v^15
-  genre_headings_t^35
   genre_headings_tp^50
   subject_headings_ara_v^15
   subject_headings_cjk_v^15
-  subject_headings_remapped_t^35
   subject_headings_remapped_tp^50
   subject_headings_rus_v^15
-  subject_headings_t^35
   subject_headings_tp^50
 </str>
 <str name="subject_pf2">
   genre_headings_ara_v^5
   genre_headings_cjk_v^5
   genre_headings_rus_v^5
-  genre_headings_t^30
   genre_headings_tp^40
   subject_headings_ara_v^5
   subject_headings_cjk_v^5
-  subject_headings_remapped_t^30
   subject_headings_remapped_tp^40
   subject_headings_rus_v^5
-  subject_headings_t^30
   subject_headings_tp^40
 </str>
 <str name="subject_qf">
   genre_headings_ara_v
   genre_headings_cjk_v
   genre_headings_rus_v
-  genre_headings_t^10
   genre_headings_tp^20
   subject_headings_ara_v
   subject_headings_cjk_v
-  subject_headings_remapped_t^10
   subject_headings_remapped_tp^20
   subject_headings_rus_v
-  subject_headings_t^10
   subject_headings_tp^20
 </str>
 <str name="genre_pf">
