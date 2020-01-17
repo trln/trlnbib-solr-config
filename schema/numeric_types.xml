@@ -28,7 +28,7 @@
       <filter class="solr.PatternReplaceFilterFactory" pattern="^\*\*\*" replacement=""/>
       <filter class="solr.LowerCaseFilterFactory"/>
       <filter class="solr.PatternReplaceFilterFactory" pattern="[^\p{N}x]" replacement="" replace="all"/>
-      <filter class="solr.LengthFilterFactory" min="&min_numid_length;" max="&max_numid_length;"/>
+      <!-- <filter class="solr.LengthFilterFactory" min="&min_numid_length;" max="&max_numid_length;"/> -->
       <!--<filter class="solr.PatternReplaceFilterFactory" pattern="^0*" replacement=""/>-->
   </analyzer>
 </fieldtype>
