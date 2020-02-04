@@ -1532,3 +1532,67 @@
   translation_of_work_indexed_rus_v^0.5
   translation_of_work_indexed_t^0.5
 </str>
+<str name="series_qf">
+  series_work_indexed_t^2
+  series_work_indexed_ara_v
+  series_work_indexed_cjk_v
+  series_work_indexed_rus_v
+  series_statement_indexed_t^2
+  series_statement_indexed_cjk_v
+  series_statement_indexed_ara_v
+  series_statement_indexed_rus_v
+</str>
+<str name="series_pf">
+  series_work_indexed_t^8
+  series_work_indexed_ara_v^2
+  series_work_indexed_cjk_v^2
+  series_work_indexed_rus_v^2
+  series_statement_indexed_t^8
+  series_statement_indexed_cjk_v^2
+  series_statement_indexed_ara_v^2
+  series_statement_indexed_rus_v^2
+</str>
+<str name="series_pf3">
+  series_work_indexed_t^6
+  series_work_indexed_ara_v^1
+  series_work_indexed_cjk_v^1
+  series_work_indexed_rus_v^1
+  series_statement_indexed_t^6
+  series_statement_indexed_cjk_v^1
+  series_statement_indexed_ara_v^1
+  series_statement_indexed_rus_v^1
+</str>
+<str name="series_pf2">
+  series_work_indexed_t^4
+  series_work_indexed_ara_v^0.5
+  series_work_indexed_cjk_v^0.5
+  series_work_indexed_rus_v^0.5
+  series_statement_indexed_t^4
+  series_statement_indexed_cjk_v^0.5
+  series_statement_indexed_ara_v^0.5
+  series_statement_indexed_rus_v^0.5
+</str>
+<str name="origin_place_qf">
+  origin_place_search_t^2
+  origin_place_search_ara_v
+  origin_place_search_cjk_v
+  origin_place_search_rus_v
+</str>
+<str name="origin_place_pf">
+  origin_place_search_t^8
+  origin_place_search_ara_v^2
+  origin_place_search_cjk_v^2
+  origin_place_search_rus_v^2
+</str>
+<str name="origin_place_pf3">
+  origin_place_search_t^6
+  origin_place_search_ara_v^1
+  origin_place_search_cjk_v^1
+  origin_place_search_rus_v^1
+</str>
+<str name="origin_place_pf2">
+  origin_place_search_t^4
+  origin_place_search_ara_v^0.5
+  origin_place_search_cjk_v^0.5
+  origin_place_search_rus_v^0.5
+</str>

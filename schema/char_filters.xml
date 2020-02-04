@@ -5,6 +5,6 @@
      - MappingCharFilterFactory does char-level expansion, (for example, flats and sharps)
 -->
 
-<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}+)\s+" replacement=" " />
+<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}(?&lt;![&amp;\+])+)\s+" replacement=" " />
 <charFilter class="solr.ICUNormalizer2CharFilterFactory"/>
 <charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
