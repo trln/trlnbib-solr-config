@@ -20,9 +20,9 @@
   <!ENTITY tpig "1000">
 
   <!-- Min/Max length of a numericID field -->
-  <!ENTITY min_numid_length "8">
-  <!ENTITY min_numid_length_minus_two "6"> <!-- can't compute in XML; change it when you change min_num_length -->
-  <!ENTITY max_numid_length "14">
+  <!ENTITY min_numid_length "1">
+  <!ENTITY min_numid_length_minus_two "0"> <!-- can't compute in XML; change it when you change min_num_length -->
+  <!ENTITY max_numid_length "20">
 
 
   <!-- Load up the field type definitions -->
