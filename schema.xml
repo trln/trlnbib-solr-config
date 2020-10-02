@@ -37,6 +37,8 @@
   <!ENTITY string_types     SYSTEM "schema/string_types.xml">
   <!ENTITY numeric_types    SYSTEM "schema/numeric_types.xml">
   <!ENTITY delimited_types  SYSTEM "schema/delimited_types.xml">
+  <!ENTITY spellcheck  SYSTEM "schema/spellcheck.xml">
+
 
   <!ENTITY library_types    SYSTEM "schema/library_types.xml">
 
@@ -105,6 +107,7 @@
   &numeric_types;
   &library_types;
   &delimited_types;
+  &spellcheck;
 
 
    <!-- Valid attributes for fields:
@@ -187,6 +190,12 @@
   <field name="author_suggest" type="text" indexed="false" stored="true" multiValued="true" />
   <field name="title_suggest" type="text" indexed="false" stored="true" multiValued="true" />
   <field name="subject_suggest" type="text" indexed="false" stored="true" multiValued="true" />
+
+  <!-- Define fields used for spellcheck -->
+   <field name="spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
+   <copyField source="title_suggest" dest="spell"/>
+   <copyField source="author_suggest" dest="spell"/>
+   <copyField source="subject_suggest" dest="spell"/>
 
  <!-- Insert the dynamic fields -->
 

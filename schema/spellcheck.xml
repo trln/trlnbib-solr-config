@@ -1,0 +1,8 @@
+<fieldType name="textSpell" class="solr.TextField" positionIncrementGap="100" >
+	<analyzer>
+		<tokenizer class="solr.StandardTokenizerFactory"/>
+		<filter class="solr.LowerCaseFilterFactory"/>
+		<filter class="solr.ASCIIFoldingFilterFactory"/>
+		<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+	</analyzer>
+</fieldType>
