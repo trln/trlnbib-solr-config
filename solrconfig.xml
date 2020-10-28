@@ -571,6 +571,7 @@
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
       <str name="suggestAnalyzerFieldType">text</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="contextField">institution_a</str>
       <str name="indexPath">suggest_author_store</str>
       <str name="field">author_suggest</str>
       <str name="highlight">false</str>
@@ -581,6 +582,7 @@
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
       <str name="suggestAnalyzerFieldType">text</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="contextField">institution_a</str>
       <str name="indexPath">suggest_title_store</str>
       <str name="field">title_suggest</str>
       <str name="highlight">false</str>
@@ -591,6 +593,7 @@
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
       <str name="suggestAnalyzerFieldType">text</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="contextField">institution_a</str>
       <str name="indexPath">suggest_subject_store</str>
       <str name="field">subject_suggest</str>
       <str name="highlight">false</str>
