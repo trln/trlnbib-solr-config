@@ -111,6 +111,10 @@
   translation_of_author_cjk_v
   translation_of_author_rus_v
   translation_of_author_tp
+  variant_names_ara_v
+  variant_names_cjk_v
+  variant_names_rus_v
+  variant_names_tp
 </str>
 <str name="author_pf3">
   statement_of_responsibility_ara_v^0.5
@@ -261,6 +265,10 @@
   translation_of_author_cjk_v
   translation_of_author_rus_v
   translation_of_author_tp
+  variant_names_ara_v
+  variant_names_cjk_v
+  variant_names_rus_v
+  variant_names_tp
 </str>
 <str name="isbn_issn_qf">
   alt_edition_isbn_isbn
@@ -588,6 +596,10 @@
   translation_of_work_indexed_rus_v^0.5
   translation_of_work_indexed_t^0.5
   upc_indexed_num
+  variant_names_ara_v
+  variant_names_cjk_v
+  variant_names_rus_v
+  variant_names_tp
 </str>
 <str name="pf3">
   included_work_indexed_ara_v^7.5
@@ -1011,6 +1023,10 @@
   translation_of_work_indexed_rus_v^0.5
   translation_of_work_indexed_t^0.5
   upc_indexed_num
+  variant_names_ara_v
+  variant_names_cjk_v
+  variant_names_rus_v
+  variant_names_tp
 </str>
 <str name="subject_pf">
   genre_headings_ara_v^2.5
