@@ -452,10 +452,10 @@
         <str name="qs">1</str>
         <str name="lowercaseOperators">false</str>
         <str name="spellcheck.dictionary">default</str>
-        <str name="spellcheck">true</str>
+        <str name="spellcheck">false</str>
         <str name="spellcheck.count">5</str>
-        <str name="Spellcheck.alternativeTermCount">2</str>
-        <str name="Spellcheck.maxResultsForSuggest">5</str>
+        <str name="spellcheck.alternativeTermCount">2</str>
+        <str name="spellcheck.maxResultsForSuggest">5</str>
         <str name="spellcheck.collate">true</str>
         <str name="spellcheck.maxCollationTries">5</str>
         <str name="spellcheck.maxCollations">3</str>
@@ -581,10 +581,26 @@
       <str name="classname">solr.IndexBasedSpellChecker</str>
       <str name="spellcheckIndexDir">./spellchecker</str>
       <str name="field">spell</str>
-      <str name="buildOnCommit">true</str>
       <str name="accuracy">0.5</str>
+      <str name="buildOnStartup">false</str>
     </lst>
   </searchComponent>
+
+  <requestHandler name="/spell" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="spellcheck.dictionary">default</str>
+      <str name="spellcheck">true</str>
+      <str name="spellcheck.count">5</str>
+      <str name="spellcheck.alternativeTermCount">2</str>
+      <str name="spellcheck.maxResultsForSuggest">5</str>
+      <str name="spellcheck.collate">true</str>
+      <str name="spellcheck.maxCollationTries">5</str>
+      <str name="spellcheck.maxCollations">3</str>
+    </lst>
+    <arr name="components">
+      <str>spellcheck</str>
+    </arr>
+  </requestHandler>
 
   <searchComponent name="suggest" class="solr.SuggestComponent">
     <lst name="suggester">
