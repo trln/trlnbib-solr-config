@@ -582,7 +582,6 @@
       <str name="spellcheckIndexDir">./spellchecker</str>
       <str name="field">spell</str>
       <str name="accuracy">0.5</str>
-      <str name="buildOnStartup">false</str>
     </lst>
   </searchComponent>
 
