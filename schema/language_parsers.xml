@@ -8,7 +8,6 @@
     <filter class="solr.LowerCaseFilterFactory"/>
     <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_ar.txt" />
     <!-- normalizes ﻯ to ﻱ, etc -->
-    <filter class="solr.ArabicNormalizationFilterFactory"/>
     <filter class="solr.ArabicStemFilterFactory"/>
     <filter class="solr.PatternReplaceFilterFactory" pattern="ة" replacement="ﺕ" replace="all"/>
     <filter class="solr.PatternReplaceFilterFactory" pattern="[آأإٱ]" replacement="ﺍ" replace="all"/>
@@ -16,6 +15,7 @@
     <filter class="solr.PatternReplaceFilterFactory" pattern="[ھۀہۂ]" replacement="ﻩ" replace="all"/>
     <filter class="solr.PatternReplaceFilterFactory" pattern="ؤ" replacement="و" replace="all"/>
     <filter class="solr.PatternReplaceFilterFactory" pattern="[ىئیےۓ]" replacement="ﻱ" replace="all"/>
+    <filter class="solr.PatternReplaceFilterFactory" pattern="ْ" replacement="" replace="all"/>
   </analyzer>
 </fieldType>
 
