@@ -14,6 +14,7 @@
 
   <!-- External Files -->
   <!ENTITY char_expansion_file "schema/token_fixing_charfilter.txt">
+  <!ENTITY arabic_char_expansion_file "schema/arabic_fixing_charfilter.txt">
   <!ENTITY synonym_file "syn.txt">
 
   <!-- Position increment gap for text fields -->
