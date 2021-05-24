@@ -348,6 +348,8 @@
   edition_indexed_t^2
   genre_headings_ara_v^5
   genre_headings_cjk_v^5
+  genre_headings_remapped_t^5
+  genre_headings_remapped_tp^5
   genre_headings_rus_v^5
   genre_headings_t^5
   genre_headings_tp^5
@@ -776,6 +778,8 @@
   edition_indexed_t^2
   genre_headings_ara_v^5
   genre_headings_cjk_v^5
+  genre_headings_remapped_t^5
+  genre_headings_remapped_tp^5
   genre_headings_rus_v^5
   genre_headings_t^5
   has_supplement_isbn_isbn
@@ -1031,6 +1035,7 @@
 <str name="subject_pf">
   genre_headings_ara_v^2.5
   genre_headings_cjk_v^2.5
+  genre_headings_remapped_tp^10
   genre_headings_rus_v^2.5
   genre_headings_tp^10
   subject_headings_ara_v^2.5
@@ -1042,6 +1047,7 @@
 <str name="subject_pf3">
   genre_headings_ara_v^1.5
   genre_headings_cjk_v^1.5
+  genre_headings_remapped_tp^5
   genre_headings_rus_v^1.5
   genre_headings_tp^5
   subject_headings_ara_v^1.5
@@ -1053,6 +1059,7 @@
 <str name="subject_pf2">
   genre_headings_ara_v^0.5
   genre_headings_cjk_v^0.5
+  genre_headings_remapped_tp^4
   genre_headings_rus_v^0.5
   genre_headings_tp^4
   subject_headings_ara_v^0.5
@@ -1064,6 +1071,7 @@
 <str name="subject_qf">
   genre_headings_ara_v
   genre_headings_cjk_v
+  genre_headings_remapped_tp^2
   genre_headings_rus_v
   genre_headings_tp^2
   subject_headings_ara_v
@@ -1075,6 +1083,8 @@
 <str name="genre_pf">
   genre_headings_ara_v^2.5
   genre_headings_cjk_v^2.5
+  genre_headings_remapped_t^5
+  genre_headings_remapped_tp^10
   genre_headings_rus_v^2.5
   genre_headings_t^5
   genre_headings_tp^10
@@ -1082,6 +1092,8 @@
 <str name="genre_qf">
   genre_headings_ara_v
   genre_headings_cjk_v
+  genre_headings_remapped_t^1
+  genre_headings_remapped_tp^2
   genre_headings_rus_v
   genre_headings_t^1
   genre_headings_tp^2
