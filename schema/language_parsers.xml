@@ -3,7 +3,7 @@
 <copyField source="*_ara_v" dest="*_vern" />
 <fieldType name="text_ar" class="solr.TextField" positionIncrementGap="100">
   <analyzer>
-    <charFilter class="solr.ICUNormalizer2CharFilterFactory"/>
+    <!-- <charFilter class="solr.ICUNormalizer2CharFilterFactory"/> -->
     <charFilter class="solr.MappingCharFilterFactory" mapping="&arabic_char_expansion_file;"/>
     <tokenizer class="solr.StandardTokenizerFactory"/>
     <!-- for any non-arabic -->
