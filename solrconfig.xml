@@ -38,7 +38,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>6.0.0</luceneMatchVersion>
+  <luceneMatchVersion>9.0.0</luceneMatchVersion>
 
   <!-- Data Directory
 
@@ -51,6 +51,13 @@
 
 
   <lib dir="../../lib" regex=".*\.jar"/>
+  <!-- add analysis-extras module, plus custom plugins -->
+  <lib dir="${solr.install.dir:/opt/solr}/modules/analysis-extras" regex=".*\.jar"/>
+  <!-- custom plugins go here when running under docker (can't copy to modules for some reason with official images) -->
+  <lib dir="/trln-modules" regex=".*\.jar"/>$a
+  <!-- in production, we can expect to be able to copy into the modules directory -->
+  <lib dir=${solr.install.dir:/opt/solr}/modules/trln" regex=".*\.jar"/>
+
 
   <!-- The DirectoryFactory to use for indexes.
        
