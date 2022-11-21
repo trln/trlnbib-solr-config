@@ -6,9 +6,6 @@
   <luceneMatchVersion>9.0.0</luceneMatchVersion>
   <dataDir>${solr.data.dir:}</dataDir>
 
-
-  <lib dir="../../lib" regex=".*\.jar"/>
-  <dataDir>${solr.data.dir:}</dataDir>
   <!-- The DirectoryFactory to use for indexes.
        
        solr.StandardDirectoryFactory is filesystem
