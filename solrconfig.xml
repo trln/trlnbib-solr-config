@@ -177,7 +177,7 @@
          be based on the last SolrCore to be initialized.
          
       -->
-    <maxBooleanClauses>1024</maxBooleanClauses>
+    <maxBooleanClauses>${solr.max.booleanClauses:4096}</maxBooleanClauses>
 
 
     <!-- Solr Internal Query Caches
@@ -265,7 +265,6 @@
         queryResultCache. 
      -->
    <queryResultMaxDocsCached>200</queryResultMaxDocsCached>
-   <maxClauseCount>4096</maxClauseCount>
 
     <!-- Use Cold Searcher
 
