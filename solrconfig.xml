@@ -265,6 +265,7 @@
         queryResultCache. 
      -->
    <queryResultMaxDocsCached>200</queryResultMaxDocsCached>
+   <maxClauseCount>4096</maxClauseCount>
 
     <!-- Use Cold Searcher
 
