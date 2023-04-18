@@ -317,7 +317,7 @@
   translation_of_isbn_isbn
   translation_of_issn_num
   translation_of_other_ids_e
-  upc_indexed_num^1
+  upc_indexed_strps^1
 </str>
 <str name="pf">
   alt_edition_isbn_isbn^0.5
@@ -597,7 +597,7 @@
   translation_of_work_indexed_cjk_v^0.5
   translation_of_work_indexed_rus_v^0.5
   translation_of_work_indexed_t^0.5
-  upc_indexed_num
+  upc_indexed_strps
   variant_names_ara_v
   variant_names_cjk_v
   variant_names_rus_v
@@ -1026,7 +1026,7 @@
   translation_of_work_indexed_cjk_v^0.5
   translation_of_work_indexed_rus_v^0.5
   translation_of_work_indexed_t^0.5
-  upc_indexed_num
+  upc_indexed_strps
   variant_names_ara_v
   variant_names_cjk_v
   variant_names_rus_v
