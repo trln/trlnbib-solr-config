@@ -6,5 +6,5 @@
 -->
 
 <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}(?&lt;![&amp;\+])+)\s+" replacement=" " />
-<charFilter class="solr.ICUNormalizer2CharFilterFactory"/>
+<charFilter name="icuNormalizer2"/>
 <charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
